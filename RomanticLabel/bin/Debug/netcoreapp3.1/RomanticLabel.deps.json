@@ -1,0 +1,189 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "RomanticLabel/1.0.0": {
+        "dependencies": {
+          "Alturos.Yolo": "2.6.3",
+          "Alturos.YoloV2TinyVocData": "1.0.0",
+          "MaterialDesignThemes": "3.0.1",
+          "Microsoft-WindowsAPICodePack-Core": "1.1.3.3",
+          "Microsoft-WindowsAPICodePack-Shell": "1.1.3.3",
+          "Prism.Wpf": "7.2.0.1422",
+          "System.Windows.Interactivity.WPF": "2.0.20525"
+        },
+        "runtime": {
+          "RomanticLabel.dll": {}
+        }
+      },
+      "Alturos.Yolo/2.6.3": {
+        "runtime": {
+          "lib/net461/Alturos.Yolo.dll": {
+            "assemblyVersion": "2.6.3.0",
+            "fileVersion": "2.6.3.0"
+          }
+        }
+      },
+      "Alturos.YoloV2TinyVocData/1.0.0": {},
+      "CommonServiceLocator/2.0.4": {
+        "runtime": {
+          "lib/netcoreapp2.0/CommonServiceLocator.dll": {
+            "assemblyVersion": "2.0.4.0",
+            "fileVersion": "2.0.4.0"
+          }
+        }
+      },
+      "MaterialDesignColors/1.2.2": {
+        "runtime": {
+          "lib/netcoreapp3.0/MaterialDesignColors.dll": {
+            "assemblyVersion": "1.2.2.920",
+            "fileVersion": "1.2.2.920"
+          }
+        }
+      },
+      "MaterialDesignThemes/3.0.1": {
+        "dependencies": {
+          "MaterialDesignColors": "1.2.2"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/MaterialDesignThemes.Wpf.dll": {
+            "assemblyVersion": "3.0.1.920",
+            "fileVersion": "3.0.1.920"
+          }
+        }
+      },
+      "Microsoft-WindowsAPICodePack-Core/1.1.3.3": {
+        "runtime": {
+          "lib/net452/Microsoft.WindowsAPICodePack.dll": {
+            "assemblyVersion": "1.1.3.3",
+            "fileVersion": "1.1.3.3"
+          }
+        }
+      },
+      "Microsoft-WindowsAPICodePack-Shell/1.1.3.3": {
+        "dependencies": {
+          "Microsoft-WindowsAPICodePack-Core": "1.1.3.3"
+        },
+        "runtime": {
+          "lib/net452/Microsoft.WindowsAPICodePack.Shell.dll": {
+            "assemblyVersion": "1.1.3.3",
+            "fileVersion": "1.1.3.3"
+          }
+        }
+      },
+      "Prism.Core/7.2.0.1422": {
+        "runtime": {
+          "lib/netcoreapp3.0/Prism.dll": {
+            "assemblyVersion": "7.2.0.1422",
+            "fileVersion": "7.2.0.1422"
+          }
+        }
+      },
+      "Prism.Wpf/7.2.0.1422": {
+        "dependencies": {
+          "CommonServiceLocator": "2.0.4",
+          "Prism.Core": "7.2.0.1422"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Prism.Wpf.dll": {
+            "assemblyVersion": "7.2.0.1422",
+            "fileVersion": "7.2.0.1422"
+          },
+          "lib/netcoreapp3.0/System.Windows.Interactivity.dll": {
+            "assemblyVersion": "4.5.0.0",
+            "fileVersion": "3.0.40218.0"
+          }
+        }
+      },
+      "System.Windows.Interactivity.WPF/2.0.20525": {
+        "runtime": {
+          "lib/net40/Microsoft.Expression.Interactions.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "2.0.20525.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RomanticLabel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Alturos.Yolo/2.6.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hTEmamDQF7pVJt+6EG2iBnTSZh009bK0+xczgFaxVV0FfzuiI1lNVGbiXaaJm+JBEksROPxoSFwgyQI0smjX0w==",
+      "path": "alturos.yolo/2.6.3",
+      "hashPath": "alturos.yolo.2.6.3.nupkg.sha512"
+    },
+    "Alturos.YoloV2TinyVocData/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TDNXHlfOjDjZbNb1OE/ukJg+zlvKPuI+uTU601sRZz94VqT4lAPwT30oW7/tSB505v8wW3BJbq8Likr4y2XM+A==",
+      "path": "alturos.yolov2tinyvocdata/1.0.0",
+      "hashPath": "alturos.yolov2tinyvocdata.1.0.0.nupkg.sha512"
+    },
+    "CommonServiceLocator/2.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YpXfV5l6kv1iQRDfhQnN4RxocbnNehU/rAAS62IlaQUTAKN3WoUbtx9MHwE98Pb09mBemSs4xhVqFhXq27rjxw==",
+      "path": "commonservicelocator/2.0.4",
+      "hashPath": "commonservicelocator.2.0.4.nupkg.sha512"
+    },
+    "MaterialDesignColors/1.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RGy0WREmcn4YcygOlIn4TnvmuVGEM4h7s6Ydw8KQu9igjZPvZm07iXLVgBzNiOtTXVqsGpQ6i7L6aZEXGetWKg==",
+      "path": "materialdesigncolors/1.2.2",
+      "hashPath": "materialdesigncolors.1.2.2.nupkg.sha512"
+    },
+    "MaterialDesignThemes/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EVUgzVjGfJ1Ube9r11iKttOU2cCpYcDAe6kkP5Z1nvytEfBrQFB2DeTEiu51E8Jv+7kN+Jmkx3zwJAr9nYaiHQ==",
+      "path": "materialdesignthemes/3.0.1",
+      "hashPath": "materialdesignthemes.3.0.1.nupkg.sha512"
+    },
+    "Microsoft-WindowsAPICodePack-Core/1.1.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SbHe5bmladl9/rCrrgK7aevx+gWBAWSfBsJHtUEJRx7sAPkgBbWRLAa/Yf7kYGs9wTy7D8r2tmZjAFqHQFro2g==",
+      "path": "microsoft-windowsapicodepack-core/1.1.3.3",
+      "hashPath": "microsoft-windowsapicodepack-core.1.1.3.3.nupkg.sha512"
+    },
+    "Microsoft-WindowsAPICodePack-Shell/1.1.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Rgu8HdNbUxoBmWIcdzRAgzJmIQ7rH+wkwRjvtLgynXP/iOquIWF6xmed5F6RFZUoowRLUPk8R9mfsagNV6pjiQ==",
+      "path": "microsoft-windowsapicodepack-shell/1.1.3.3",
+      "hashPath": "microsoft-windowsapicodepack-shell.1.1.3.3.nupkg.sha512"
+    },
+    "Prism.Core/7.2.0.1422": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U6tZ4Iq+ELyK5PedRC6E20caZXXTmTYiw5evpv0M3WcfKgih9H5G5LDBlDl+65eC5Vb4lnOaUCAtckdEl2MRxA==",
+      "path": "prism.core/7.2.0.1422",
+      "hashPath": "prism.core.7.2.0.1422.nupkg.sha512"
+    },
+    "Prism.Wpf/7.2.0.1422": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-njl3uLjqDXeWCbAItgDkZsWIqVnRyhknoMMXZSQdO9jKoIgb+qB/X47YT5KchCNLxLtDq3saQMf5mSZ/LQLqiQ==",
+      "path": "prism.wpf/7.2.0.1422",
+      "hashPath": "prism.wpf.7.2.0.1422.nupkg.sha512"
+    },
+    "System.Windows.Interactivity.WPF/2.0.20525": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0r+Le4E7hCm4zToUvBzjSUyTcuU3rFeoPa7JyTdWIzR/F7wH6+O/pWkjHIG40hIA0z1wvRdZayvoizA4wcK1dg==",
+      "path": "system.windows.interactivity.wpf/2.0.20525",
+      "hashPath": "system.windows.interactivity.wpf.2.0.20525.nupkg.sha512"
+    }
+  }
+}

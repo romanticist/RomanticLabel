@@ -1,0 +1,44 @@
+﻿<UserControl x:Class="RomanticLabel.View.UserControlGauge"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             xmlns:local="clr-namespace:RomanticLabel"
+             mc:Ignorable="d" 
+             d:DesignHeight="140" d:DesignWidth="250" Background="Gray">
+    <Grid>
+        <Slider Minimum="0" Maximum="{Binding MaxFrame}" Width="90" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="12" Value="{Binding Path=Value}">
+            
+            
+        </Slider>
+        <Border HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="90" Width="180" BorderBrush="#FFCF5D1D"
+                BorderThickness="0.6 0.6 0.6 0" CornerRadius="300 300 0 0" Background="#FF151515"/>
+        <Border HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="87" Width="175" BorderBrush="#FFCF5D1D"
+                BorderThickness="0 0.6 0 0" CornerRadius="300 300 0 0">
+            <Border.Effect>
+                <DropShadowEffect Color="#FFFFC7A7" BlurRadius="10" ShadowDepth="2"/>
+            </Border.Effect>
+        </Border>
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="30" FontSize="24" 
+                   FontFamily="Agency FB" Foreground="#FF95D4FF" Text="{Binding Value, Mode=TwoWay}">
+            <TextBlock.Effect>
+                <DropShadowEffect BlurRadius="6" Color="#FF91DEFB" ShadowDepth="0"/>
+            </TextBlock.Effect>
+        </TextBlock>
+        <Border Width="1.5" CornerRadius="36 36 0 0" Background="#FFFF6901" RenderTransformOrigin="0.5 2" Height="40" Margin="0 0 0 40" 
+                VerticalAlignment="Bottom" HorizontalAlignment="Center">
+            <Border.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="{Binding Angle}"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Border.RenderTransform>
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="9" Color="#FFB9B9B9" ShadowDepth="0"/>
+            </Border.Effect>
+        </Border>
+    </Grid>
+</UserControl>

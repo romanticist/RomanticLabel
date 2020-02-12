@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)materialdesignthemes\3.0.1\build\MaterialDesignThemes.targets" Condition="Exists('$(NuGetPackageRoot)materialdesignthemes\3.0.1\build\MaterialDesignThemes.targets')" />
+    <Import Project="$(NuGetPackageRoot)alturos.yolov2tinyvocdata\1.0.0\build\net46\Alturos.YoloV2TinyVocData.targets" Condition="Exists('$(NuGetPackageRoot)alturos.yolov2tinyvocdata\1.0.0\build\net46\Alturos.YoloV2TinyVocData.targets')" />
+    <Import Project="$(NuGetPackageRoot)alturos.yolo\2.6.3\build\net461\Alturos.Yolo.targets" Condition="Exists('$(NuGetPackageRoot)alturos.yolo\2.6.3\build\net461\Alturos.Yolo.targets')" />
+  </ImportGroup>
+</Project>

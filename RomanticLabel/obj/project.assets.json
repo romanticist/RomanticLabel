@@ -1,0 +1,458 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Alturos.Yolo/2.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/net461/Alturos.Yolo.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Alturos.Yolo.dll": {}
+        },
+        "build": {
+          "build/net461/Alturos.Yolo.targets": {}
+        }
+      },
+      "Alturos.YoloV2TinyVocData/1.0.0": {
+        "type": "package",
+        "build": {
+          "build/net46/Alturos.YoloV2TinyVocData.targets": {}
+        }
+      },
+      "CommonServiceLocator/2.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp2.0/CommonServiceLocator.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/CommonServiceLocator.dll": {}
+        }
+      },
+      "MaterialDesignColors/1.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/MaterialDesignColors.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/MaterialDesignColors.dll": {}
+        }
+      },
+      "MaterialDesignThemes/3.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MaterialDesignColors": "[1.2.2, 2.0.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/MaterialDesignThemes.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/MaterialDesignThemes.Wpf.dll": {}
+        },
+        "build": {
+          "build/MaterialDesignThemes.targets": {}
+        }
+      },
+      "Microsoft-WindowsAPICodePack-Core/1.1.3.3": {
+        "type": "package",
+        "compile": {
+          "lib/net452/Microsoft.WindowsAPICodePack.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Microsoft.WindowsAPICodePack.dll": {}
+        }
+      },
+      "Microsoft-WindowsAPICodePack-Shell/1.1.3.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft-WindowsAPICodePack-Core": "1.1.3.3"
+        },
+        "compile": {
+          "lib/net452/Microsoft.WindowsAPICodePack.Shell.dll": {}
+        },
+        "runtime": {
+          "lib/net452/Microsoft.WindowsAPICodePack.Shell.dll": {}
+        }
+      },
+      "Prism.Core/7.2.0.1422": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/Prism.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Prism.dll": {}
+        }
+      },
+      "Prism.Wpf/7.2.0.1422": {
+        "type": "package",
+        "dependencies": {
+          "CommonServiceLocator": "2.0.4",
+          "Prism.Core": "7.2.0.1422"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Prism.Wpf.dll": {},
+          "lib/netcoreapp3.0/System.Windows.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Prism.Wpf.dll": {},
+          "lib/netcoreapp3.0/System.Windows.Interactivity.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "System.Windows.Interactivity.WPF/2.0.20525": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.Expression.Interactions.dll": {},
+          "lib/net40/System.Windows.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Expression.Interactions.dll": {},
+          "lib/net40/System.Windows.Interactivity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Alturos.Yolo/2.6.3": {
+      "sha512": "hTEmamDQF7pVJt+6EG2iBnTSZh009bK0+xczgFaxVV0FfzuiI1lNVGbiXaaJm+JBEksROPxoSFwgyQI0smjX0w==",
+      "type": "package",
+      "path": "alturos.yolo/2.6.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "alturos.yolo.2.6.3.nupkg.sha512",
+        "alturos.yolo.nuspec",
+        "build/net461/Alturos.Yolo.targets",
+        "build/x64/msvcr100.dll",
+        "build/x64/opencv_world411.dll",
+        "build/x64/pthreadGC2.dll",
+        "build/x64/pthreadVC2.dll",
+        "build/x64/yolo_cpp_dll_cpu.dll",
+        "build/x64/yolo_cpp_dll_gpu.dll",
+        "lib/net461/Alturos.Yolo.dll",
+        "lib/net461/Alturos.Yolo.xml",
+        "readme.txt"
+      ]
+    },
+    "Alturos.YoloV2TinyVocData/1.0.0": {
+      "sha512": "TDNXHlfOjDjZbNb1OE/ukJg+zlvKPuI+uTU601sRZz94VqT4lAPwT30oW7/tSB505v8wW3BJbq8Likr4y2XM+A==",
+      "type": "package",
+      "path": "alturos.yolov2tinyvocdata/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "alturos.yolov2tinyvocdata.1.0.0.nupkg.sha512",
+        "alturos.yolov2tinyvocdata.nuspec",
+        "build/net46/Alturos.YoloV2TinyVocData.targets",
+        "build/net46/voc.names",
+        "build/net46/yolov2-tiny-voc.cfg",
+        "build/net46/yolov2-tiny-voc.weights"
+      ]
+    },
+    "CommonServiceLocator/2.0.4": {
+      "sha512": "YpXfV5l6kv1iQRDfhQnN4RxocbnNehU/rAAS62IlaQUTAKN3WoUbtx9MHwE98Pb09mBemSs4xhVqFhXq27rjxw==",
+      "type": "package",
+      "path": "commonservicelocator/2.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "commonservicelocator.2.0.4.nupkg.sha512",
+        "commonservicelocator.nuspec",
+        "lib/net40/CommonServiceLocator.dll",
+        "lib/net45/CommonServiceLocator.dll",
+        "lib/net46/CommonServiceLocator.dll",
+        "lib/net47/CommonServiceLocator.dll",
+        "lib/netcoreapp1.0/CommonServiceLocator.dll",
+        "lib/netcoreapp2.0/CommonServiceLocator.dll",
+        "lib/netstandard1.0/CommonServiceLocator.dll",
+        "lib/netstandard2.0/CommonServiceLocator.dll"
+      ]
+    },
+    "MaterialDesignColors/1.2.2": {
+      "sha512": "RGy0WREmcn4YcygOlIn4TnvmuVGEM4h7s6Ydw8KQu9igjZPvZm07iXLVgBzNiOtTXVqsGpQ6i7L6aZEXGetWKg==",
+      "type": "package",
+      "path": "materialdesigncolors/1.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/MaterialDesignColors.Icon.png",
+        "lib/net45/MaterialDesignColors.dll",
+        "lib/net45/MaterialDesignColors.pdb",
+        "lib/netcoreapp3.0/MaterialDesignColors.dll",
+        "lib/netcoreapp3.0/MaterialDesignColors.pdb",
+        "materialdesigncolors.1.2.2.nupkg.sha512",
+        "materialdesigncolors.nuspec"
+      ]
+    },
+    "MaterialDesignThemes/3.0.1": {
+      "sha512": "EVUgzVjGfJ1Ube9r11iKttOU2cCpYcDAe6kkP5Z1nvytEfBrQFB2DeTEiu51E8Jv+7kN+Jmkx3zwJAr9nYaiHQ==",
+      "type": "package",
+      "path": "materialdesignthemes/3.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/MaterialDesignThemes.targets",
+        "build/Resources/Roboto/Roboto-Black.ttf",
+        "build/Resources/Roboto/Roboto-BlackItalic.ttf",
+        "build/Resources/Roboto/Roboto-Bold.ttf",
+        "build/Resources/Roboto/Roboto-BoldItalic.ttf",
+        "build/Resources/Roboto/Roboto-Italic.ttf",
+        "build/Resources/Roboto/Roboto-Light.ttf",
+        "build/Resources/Roboto/Roboto-LightItalic.ttf",
+        "build/Resources/Roboto/Roboto-Medium.ttf",
+        "build/Resources/Roboto/Roboto-MediumItalic.ttf",
+        "build/Resources/Roboto/Roboto-Regular.ttf",
+        "build/Resources/Roboto/Roboto-Thin.ttf",
+        "build/Resources/Roboto/Roboto-ThinItalic.ttf",
+        "build/Resources/Roboto/RobotoCondensed-Bold.ttf",
+        "build/Resources/Roboto/RobotoCondensed-BoldItalic.ttf",
+        "build/Resources/Roboto/RobotoCondensed-Italic.ttf",
+        "build/Resources/Roboto/RobotoCondensed-Light.ttf",
+        "build/Resources/Roboto/RobotoCondensed-LightItalic.ttf",
+        "build/Resources/Roboto/RobotoCondensed-Regular.ttf",
+        "images/MaterialDesignThemes.Icon.png",
+        "lib/net45/MaterialDesignThemes.Wpf.dll",
+        "lib/net45/MaterialDesignThemes.Wpf.pdb",
+        "lib/net45/MaterialDesignThemes.Wpf.xml",
+        "lib/netcoreapp3.0/MaterialDesignThemes.Wpf.dll",
+        "lib/netcoreapp3.0/MaterialDesignThemes.Wpf.pdb",
+        "lib/netcoreapp3.0/MaterialDesignThemes.Wpf.xml",
+        "materialdesignthemes.3.0.1.nupkg.sha512",
+        "materialdesignthemes.nuspec"
+      ]
+    },
+    "Microsoft-WindowsAPICodePack-Core/1.1.3.3": {
+      "sha512": "SbHe5bmladl9/rCrrgK7aevx+gWBAWSfBsJHtUEJRx7sAPkgBbWRLAa/Yf7kYGs9wTy7D8r2tmZjAFqHQFro2g==",
+      "type": "package",
+      "path": "microsoft-windowsapicodepack-core/1.1.3.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/Microsoft.WindowsAPICodePack.XML",
+        "lib/net452/Microsoft.WindowsAPICodePack.dll",
+        "microsoft-windowsapicodepack-core.1.1.3.3.nupkg.sha512",
+        "microsoft-windowsapicodepack-core.nuspec"
+      ]
+    },
+    "Microsoft-WindowsAPICodePack-Shell/1.1.3.3": {
+      "sha512": "Rgu8HdNbUxoBmWIcdzRAgzJmIQ7rH+wkwRjvtLgynXP/iOquIWF6xmed5F6RFZUoowRLUPk8R9mfsagNV6pjiQ==",
+      "type": "package",
+      "path": "microsoft-windowsapicodepack-shell/1.1.3.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/Microsoft.WindowsAPICodePack.Shell.XML",
+        "lib/net452/Microsoft.WindowsAPICodePack.Shell.dll",
+        "microsoft-windowsapicodepack-shell.1.1.3.3.nupkg.sha512",
+        "microsoft-windowsapicodepack-shell.nuspec"
+      ]
+    },
+    "Prism.Core/7.2.0.1422": {
+      "sha512": "U6tZ4Iq+ELyK5PedRC6E20caZXXTmTYiw5evpv0M3WcfKgih9H5G5LDBlDl+65eC5Vb4lnOaUCAtckdEl2MRxA==",
+      "type": "package",
+      "path": "prism.core/7.2.0.1422",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Prism.dll",
+        "lib/net45/Prism.pdb",
+        "lib/net45/Prism.xml",
+        "lib/netcoreapp3.0/Prism.dll",
+        "lib/netcoreapp3.0/Prism.pdb",
+        "lib/netcoreapp3.0/Prism.xml",
+        "lib/netstandard2.0/Prism.dll",
+        "lib/netstandard2.0/Prism.pdb",
+        "lib/netstandard2.0/Prism.xml",
+        "prism.core.7.2.0.1422.nupkg.sha512",
+        "prism.core.nuspec"
+      ]
+    },
+    "Prism.Wpf/7.2.0.1422": {
+      "sha512": "njl3uLjqDXeWCbAItgDkZsWIqVnRyhknoMMXZSQdO9jKoIgb+qB/X47YT5KchCNLxLtDq3saQMf5mSZ/LQLqiQ==",
+      "type": "package",
+      "path": "prism.wpf/7.2.0.1422",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Prism.Wpf.dll",
+        "lib/net45/Prism.Wpf.pdb",
+        "lib/net45/Prism.Wpf.xml",
+        "lib/net45/System.Windows.Interactivity.dll",
+        "lib/netcoreapp3.0/Prism.Wpf.dll",
+        "lib/netcoreapp3.0/Prism.Wpf.pdb",
+        "lib/netcoreapp3.0/Prism.Wpf.xml",
+        "lib/netcoreapp3.0/System.Windows.Interactivity.dll",
+        "prism.wpf.7.2.0.1422.nupkg.sha512",
+        "prism.wpf.nuspec"
+      ]
+    },
+    "System.Windows.Interactivity.WPF/2.0.20525": {
+      "sha512": "0r+Le4E7hCm4zToUvBzjSUyTcuU3rFeoPa7JyTdWIzR/F7wH6+O/pWkjHIG40hIA0z1wvRdZayvoizA4wcK1dg==",
+      "type": "package",
+      "path": "system.windows.interactivity.wpf/2.0.20525",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Microsoft.Expression.Interactions.dll",
+        "lib/net40/Microsoft.Expression.Interactions.xml",
+        "lib/net40/System.Windows.Interactivity.dll",
+        "lib/net40/System.Windows.Interactivity.xml",
+        "system.windows.interactivity.wpf.2.0.20525.nupkg.sha512",
+        "system.windows.interactivity.wpf.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Alturos.Yolo >= 2.6.3",
+      "Alturos.YoloV2TinyVocData >= 1.0.0",
+      "MaterialDesignThemes >= 3.0.1",
+      "Microsoft-WindowsAPICodePack-Core >= 1.1.3.3",
+      "Microsoft-WindowsAPICodePack-Shell >= 1.1.3.3",
+      "Prism.Wpf >= 7.2.0.1422",
+      "System.Windows.Interactivity.WPF >= 2.0.20525"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\csy18\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\csy18\\OneDrive\\바탕 화면\\RomanticLabel\\RomanticLabel\\RomanticLabel.csproj",
+      "projectName": "RomanticLabel",
+      "projectPath": "C:\\Users\\csy18\\OneDrive\\바탕 화면\\RomanticLabel\\RomanticLabel\\RomanticLabel.csproj",
+      "packagesPath": "C:\\Users\\csy18\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\csy18\\OneDrive\\바탕 화면\\RomanticLabel\\RomanticLabel\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\csy18\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "Alturos.Yolo": {
+            "target": "Package",
+            "version": "[2.6.3, )"
+          },
+          "Alturos.YoloV2TinyVocData": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
+          "MaterialDesignThemes": {
+            "target": "Package",
+            "version": "[3.0.1, )"
+          },
+          "Microsoft-WindowsAPICodePack-Core": {
+            "target": "Package",
+            "version": "[1.1.3.3, )"
+          },
+          "Microsoft-WindowsAPICodePack-Shell": {
+            "target": "Package",
+            "version": "[1.1.3.3, )"
+          },
+          "Prism.Wpf": {
+            "target": "Package",
+            "version": "[7.2.0.1422, )"
+          },
+          "System.Windows.Interactivity.WPF": {
+            "target": "Package",
+            "version": "[2.0.20525, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "프로젝트 대상 프레임워크 '.NETCoreApp,Version=v3.1' 대신 '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8'을(를) 사용하여 패키지 'Alturos.Yolo 2.6.3'을(를) 복원했습니다. 이 패키지는 프로젝트와 완벽하게 호환되지 않을 수 있습니다.",
+      "libraryId": "Alturos.Yolo",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "프로젝트 대상 프레임워크 '.NETCoreApp,Version=v3.1' 대신 '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8'을(를) 사용하여 패키지 'Alturos.YoloV2TinyVocData 1.0.0'을(를) 복원했습니다. 이 패키지는 프로젝트와 완벽하게 호환되지 않을 수 있습니다.",
+      "libraryId": "Alturos.YoloV2TinyVocData",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "프로젝트 대상 프레임워크 '.NETCoreApp,Version=v3.1' 대신 '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8'을(를) 사용하여 패키지 'Microsoft-WindowsAPICodePack-Core 1.1.3.3'을(를) 복원했습니다. 이 패키지는 프로젝트와 완벽하게 호환되지 않을 수 있습니다.",
+      "libraryId": "Microsoft-WindowsAPICodePack-Core",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "프로젝트 대상 프레임워크 '.NETCoreApp,Version=v3.1' 대신 '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8'을(를) 사용하여 패키지 'Microsoft-WindowsAPICodePack-Shell 1.1.3.3'을(를) 복원했습니다. 이 패키지는 프로젝트와 완벽하게 호환되지 않을 수 있습니다.",
+      "libraryId": "Microsoft-WindowsAPICodePack-Shell",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "프로젝트 대상 프레임워크 '.NETCoreApp,Version=v3.1' 대신 '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8'을(를) 사용하여 패키지 'System.Windows.Interactivity.WPF 2.0.20525'을(를) 복원했습니다. 이 패키지는 프로젝트와 완벽하게 호환되지 않을 수 있습니다.",
+      "libraryId": "System.Windows.Interactivity.WPF",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
